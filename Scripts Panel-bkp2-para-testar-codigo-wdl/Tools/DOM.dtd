@@ -1,0 +1,18 @@
+﻿<!ELEMENT folha (grupo+)>
+<!ELEMENT grupo ( ( nomeGrupo | grupoAssociacao | grupoConsorcio | grupoEditais ), entidade+)>
+<!ELEMENT entidade ( ( nomeEntidade | entidadeAssociacao | entidadeConsorcio | entidadeEditais), ato+)>
+<!ELEMENT ato ( titulo, pub?, codAto, integra )>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT pub (#PCDATA)>
+<!ELEMENT codAto (#PCDATA)>
+<!ELEMENT integra (#PCDATA)>
+
+<!ELEMENT nomeGrupo (#PCDATA)>
+<!ELEMENT grupoAssociacao (#PCDATA)>
+<!ELEMENT grupoConsorcio (#PCDATA)>
+<!ELEMENT grupoEditais (#PCDATA)>
+
+<!ELEMENT nomeEntidade (#PCDATA)>
+<!ELEMENT entidadeAssociacao (#PCDATA)>
+<!ELEMENT entidadeConsorcio (#PCDATA)>
+<!ELEMENT entidadeEditais (#PCDATA)>

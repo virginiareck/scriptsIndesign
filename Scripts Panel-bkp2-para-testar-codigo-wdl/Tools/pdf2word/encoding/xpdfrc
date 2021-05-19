@@ -1,0 +1,52 @@
+#----- begin Chinese Simplified support package (2004-jul-27)
+cidToUnicode	Adobe-GB1	Adobe-GB1.cidToUnicode
+unicodeMap	ISO-2022-CN	ISO-2022-CN.unicodeMap
+unicodeMap	EUC-CN		EUC-CN.unicodeMap
+unicodeMap	GBK		GBK.unicodeMap
+cMapDir		Adobe-GB1	CMap
+toUnicodeDir			CMap
+#displayCIDFontTT	Adobe-GB1	/usr/..../gkai00mp.ttf
+#----- end Chinese Simplified support package
+#----- begin Chinese Traditional support package (2004-jul-27)
+cidToUnicode	Adobe-CNS1	Adobe-CNS1.cidToUnicode
+unicodeMap	Big5		Big5.unicodeMap
+unicodeMap	Big5ascii	Big5ascii.unicodeMap
+cMapDir		Adobe-CNS1	CMap
+toUnicodeDir			CMap
+#displayCIDFontTT	Adobe-CNS1	/usr/..../bkai00mp.ttf
+#----- end Chinese Traditional support package
+#----- begin Cyrillic support package (2003-jun-28)
+nameToUnicode			Bulgarian.nameToUnicode
+unicodeMap	KOI8-R		KOI8-R.unicodeMap
+#----- end Cyrillic support package
+#----- begin Greek support package (2003-jun-28)
+nameToUnicode			Greek.nameToUnicode
+unicodeMap	ISO-8859-7	ISO-8859-7.unicodeMap
+#----- end Greek support package
+#----- begin Hebrew support package (2003-feb-16)
+unicodeMap	ISO-8859-8	ISO-8859-8.unicodeMap
+unicodeMap	Windows-1255	Windows-1255.unicodeMap
+#----- end Hebrew support package
+#----- begin Japanese support package (2004-jul-27)
+cidToUnicode	Adobe-Japan1	Adobe-Japan1.cidToUnicode
+unicodeMap	ISO-2022-JP	ISO-2022-JP.unicodeMap
+unicodeMap	EUC-JP		EUC-JP.unicodeMap
+unicodeMap	Shift-JIS	Shift-JIS.unicodeMap
+cMapDir		Adobe-Japan1	CMap
+toUnicodeDir			CMap
+#displayCIDFontTT	Adobe-Japan1	/usr/..../kochi-mincho.ttf
+#----- end Japanese support package
+#----- begin Korean support package (2004-jul-27)
+cidToUnicode	Adobe-Korea1	Adobe-Korea1.cidToUnicode
+unicodeMap	ISO-2022-KR	ISO-2022-KR.unicodeMap
+cMapDir		Adobe-Korea1	CMap
+toUnicodeDir			CMap
+#displayCIDFontTT	Adobe-Korea1	/usr/..../batang.ttf"
+#displayCIDFontTT	Unidocs-Korea1	/usr/..../batang.ttf"
+#----- end Korean support package
+
+#displayNamedCIDFontTT MS-PGothic C:/windows/fonts/msgothic.ttc
+#displayNamedCIDFontTT HGSGothicE C:/windows/fonts/msgothic.ttc
+#displayNamedCIDFontTT HGPGothicE C:/windows/fonts/msgothic.ttc
+#displayNamedCIDFontTT HGGothicE C:/windows/fonts/msgothic.ttc
+#displayNamedCIDFontTT HGPSoeiKakupoptai C:/windows/fonts/msgothic.ttc
